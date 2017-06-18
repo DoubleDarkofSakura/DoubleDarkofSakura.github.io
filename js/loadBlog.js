@@ -91,6 +91,8 @@ $(document).on("click","button#changeBlog",function(){
 		url: config.url+"/DDoSblogAPI/blog/update?randID="+Math.random(),
 		data: {
 			"id": pageIndex.split("_")[1],
+			"title": "",
+			"type": "",
 			"text": text,
 		},
 		dataType:"json",
