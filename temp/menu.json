@@ -1,0 +1,91 @@
+{
+	"msg": "success",
+	"data": [
+		{
+			"index": "home",
+			"name": "首页",
+			"url": "main.html",
+			"child": []
+		},
+		{
+			"index": "new",
+			"name": "最新",
+			"url": "main.html",
+			"child": []
+		},
+		{
+			"index": "01",
+			"name": "开发",
+			"url": "main.html",
+			"child": [
+				{
+					"index": "0101",
+					"name": "基础",
+					"url": "main.html"
+				},
+				{
+					"index": "0102",
+					"name": "前端",
+					"url": "main.html"
+				},
+				{
+					"index": "0103",
+					"name": "后端",
+					"url": "main.html"
+				},
+				{
+					"index": "0104",
+					"name": "移动端",
+					"url": "main.html"
+				}
+			]
+		},
+		{
+			"index": "02",
+			"name": "游戏",
+			"url": "main.html",
+			"child": []
+		},
+		{
+			"index": "03",
+			"name": "生活",
+			"url": "main.html",
+			"child": [
+				{
+					"index": "0301",
+					"name": "美食",
+					"url": "main.html"
+				},
+				{
+					"index": "0302",
+					"name": "旅游",
+					"url": "main.html"
+				}
+			]
+		},
+		{
+			"index": "04",
+			"name": "小说",
+			"url": "main.html",
+			"child": [
+				{
+					"index": "0401",
+					"name": "玄幻",
+					"url": "main.html"
+				},
+				{
+					"index": "0402",
+					"name": "轻小说",
+					"url": "main.html"
+				}
+			]
+		},
+		{
+			"index": "markdown",
+			"id": "8",
+			"name": "关于",
+			"url": "blog.html",
+			"child": []
+		}
+	]
+}

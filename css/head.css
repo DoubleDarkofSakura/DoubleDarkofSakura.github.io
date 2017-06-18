@@ -1,0 +1,21 @@
+div#head{
+	margin-top: 2%;
+	margin-right: 10%;
+	margin-left: 10%;
+	width: 80%;
+}
+div#headuser{
+	float: right;
+}
+img#headimage{
+	float: left;
+	height: 6em;
+}
+p#headtitle{
+	padding-top: 2em;
+	width: 90%;
+	height: 100%;
+	font-size: 1.2em;
+	text-align:center;
+	color: #4682B4;
+}

@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Double Dark of Sakura 博客园">
+	<meta name="keywords" content="blog,IT,computer,programme">
+	<meta name="author" content="Double Dark of Sakura (墨樱)">
+
+	<title>DDoS 博客园</title>
+	<link rel="icon" href="image/icon.png" type="image/x-ico" />
+
+	<link rel="stylesheet" href="css/background.css">
+
+	<style type="text/css" media="screen">
+		#welcome{
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 10%;
+			width: 60%;
+
+			text-align: center;
+		}
+		#welcomeimage{
+			width: 100%;
+		}
+	</style>
+
+	<script>
+		var time=2;
+		var timer=setInterval('tiaozhuan()',1000);
+		function tiaozhuan(){
+			var t= document.getElementById("second");
+			if(time>0){
+				t.innerHTML=time;
+				time--;
+			}else {
+				clearInterval(timer);
+				location.href="main.html";
+			}
+		}
+	</script>
+</head>
+<body>
+	<div id="background">
+		<img src="image/background.jpg" id="backgroundimage" />
+	</div>
+
+	<div id="welcome">
+		<h2>Welcome to "Double Dark of Sakura" blog web</h2>
+		<img src="image/icon2.png" id="welcomeimage" />
+		<br />
+		<font id="second" size="5">3</font>秒后自动跳转至主页 或 立即
+		<a  href="main.html" >跳转</a>
+	</div>
+</body>
+</html>

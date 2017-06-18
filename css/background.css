@@ -1,0 +1,24 @@
+body{
+	margin:0;
+	padding:0;
+	background-color: #F5F5F5;
+}
+#background{
+	position:fixed;
+	left:0px;
+	top:0px;
+	width:100%;
+	height:100%;
+	z-index:-1;
+}
+#backgroundimage{
+	position:fixed;
+	left:0px;
+	top:0px;
+	width:100%;
+	height:100%;
+	filter:alpha(opacity=50);
+	-moz-opacity:0.5;
+	opacity:0.5;
+	-khtml-opacity:0.5;
+}
